@@ -83,6 +83,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2018-11-08 21:36:56 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
       "has_iron_ingot": "2018-10-28 21:42:27 -0700"
@@ -200,6 +206,12 @@
   "minecraft:recipes/combat/golden_sword": {
     "criteria": {
       "has_gold_ingot": "2018-10-28 22:31:56 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2018-11-08 21:36:56 -0800"
     },
     "done": true
   },
@@ -371,6 +383,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2018-11-08 21:46:53 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget": {
     "criteria": {
       "has_gold_ingot": "2018-10-28 22:31:56 -0700"
@@ -397,12 +415,16 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2018-11-09 23:57:46 -0800",
+      "cooked_mutton": "2018-11-10 00:03:14 -0800",
       "cooked_beef": "2018-11-06 19:38:32 -0800",
+      "baked_potato": "2018-11-08 22:36:29 -0800",
       "apple": "2018-10-28 21:22:42 -0700",
       "cooked_cod": "2018-10-28 21:56:07 -0700",
       "bread": "2018-10-28 22:22:25 -0700",
       "salmon": "2018-10-28 22:22:43 -0700",
       "dried_kelp": "2018-11-05 20:07:37 -0800",
+      "cooked_salmon": "2018-11-08 19:14:30 -0800",
       "carrot": "2018-10-30 21:46:36 -0700"
     },
     "done": false
@@ -422,6 +444,12 @@
   "minecraft:recipes/brewing/golden_carrot": {
     "criteria": {
       "has_gold_nugget": "2018-10-30 20:21:53 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2018-11-10 00:05:33 -0800"
     },
     "done": true
   },
@@ -452,6 +480,12 @@
   "minecraft:recipes/redstone/jungle_button": {
     "criteria": {
       "has_planks": "2018-10-28 21:24:55 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2018-11-09 23:51:56 -0800"
     },
     "done": true
   },
@@ -509,13 +543,13 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
+  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
     "criteria": {
       "has_sand": "2018-10-28 21:41:15 -0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
+  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
       "has_sand": "2018-10-28 21:41:15 -0700"
     },
@@ -701,6 +735,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2018-11-08 21:36:56 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_stained_glass_pane": {
     "criteria": {
       "has_glass": "2018-10-30 20:21:52 -0700"
@@ -734,6 +774,18 @@
   "minecraft:recipes/building_blocks/red_stained_glass": {
     "criteria": {
       "has_glass": "2018-10-30 20:21:52 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2018-11-10 00:05:33 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_log": "2018-11-10 00:12:31 -0800"
     },
     "done": true
   },
@@ -947,6 +999,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2018-11-08 21:46:53 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_stained_glass_pane": {
     "criteria": {
       "has_glass": "2018-10-30 20:21:52 -0700"
@@ -955,15 +1013,17 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:blaze": "2018-11-09 22:46:15 -0800",
       "minecraft:skeleton": "2018-10-28 21:48:04 -0700",
       "minecraft:phantom": "2018-10-30 22:39:16 -0700",
       "minecraft:witch": "2018-10-30 21:32:43 -0700",
       "minecraft:enderman": "2018-11-04 20:56:39 -0800",
       "minecraft:spider": "2018-10-28 22:25:04 -0700",
       "minecraft:zombie": "2018-10-28 21:33:52 -0700",
-      "minecraft:drowned": "2018-10-28 21:30:48 -0700",
       "minecraft:creeper": "2018-11-01 21:22:17 -0700",
-      "minecraft:zombie_villager": "2018-11-01 21:01:38 -0700"
+      "minecraft:drowned": "2018-10-28 21:30:48 -0700",
+      "minecraft:zombie_villager": "2018-11-01 21:01:38 -0700",
+      "minecraft:slime": "2018-11-08 21:21:25 -0800"
     },
     "done": false
   },
@@ -1063,9 +1123,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/slime_block": {
+    "criteria": {
+      "has_at_least_9_slime_ball": "2018-11-08 21:29:59 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/glass_pane": {
     "criteria": {
       "has_glass": "2018-10-30 20:21:52 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_at_least_9_lapis": "2018-11-08 19:38:27 -0800"
     },
     "done": true
   },
@@ -1135,6 +1207,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2018-11-09 23:51:34 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2018-10-28 21:25:59 -0700"
@@ -1186,6 +1264,12 @@
   "minecraft:recipes/redstone/jungle_pressure_plate": {
     "criteria": {
       "has_planks": "2018-10-28 21:24:55 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2018-11-10 00:07:15 -0800"
     },
     "done": true
   },
@@ -1252,6 +1336,12 @@
   "minecraft:recipes/decorations/light_blue_stained_glass_pane": {
     "criteria": {
       "has_glass": "2018-10-30 20:21:52 -0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2018-11-09 22:44:25 -0800"
     },
     "done": true
   },
@@ -1333,6 +1423,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2018-11-10 00:12:31 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/yellow_dye_from_dandelion": {
     "criteria": {
       "has_yellow_flower": "2018-10-28 21:25:35 -0700"
@@ -1390,6 +1486,12 @@
   "minecraft:recipes/decorations/yellow_stained_glass_pane": {
     "criteria": {
       "has_glass": "2018-10-30 20:21:52 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2018-11-09 23:51:56 -0800"
     },
     "done": true
   },
@@ -1483,6 +1585,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2018-11-09 23:51:56 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2018-10-28 22:28:49 -0700"
@@ -1561,6 +1669,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_at_least_9_slime_ball": "2018-11-08 21:29:59 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_chestplate": {
     "criteria": {
       "has_iron_ingot": "2018-10-28 21:42:27 -0700"
@@ -1606,6 +1720,12 @@
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2018-11-02 22:54:04 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2018-11-10 00:07:15 -0800"
     },
     "done": true
   },
@@ -1681,6 +1801,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2018-11-10 00:07:15 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone": {
     "criteria": {
       "has_cobblestone": "2018-10-28 21:32:50 -0700"
@@ -1720,12 +1846,12 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2018-10-28 21:51:21 -0700",
-      "minecraft:mountains": "2018-11-05 21:02:43 -0800",
       "minecraft:forest": "2018-10-28 21:15:04 -0700",
+      "minecraft:mountains": "2018-11-05 21:02:43 -0800",
       "minecraft:deep_lukewarm_ocean": "2018-11-06 19:23:15 -0800",
       "minecraft:beach": "2018-10-28 21:39:57 -0700",
-      "minecraft:lukewarm_ocean": "2018-11-05 20:59:14 -0800",
       "minecraft:river": "2018-10-28 21:39:59 -0700",
+      "minecraft:lukewarm_ocean": "2018-11-05 20:59:14 -0800",
       "minecraft:stone_shore": "2018-11-05 21:01:15 -0800",
       "minecraft:swamp": "2018-11-05 20:57:28 -0800",
       "minecraft:plains": "2018-10-28 21:38:04 -0700"
@@ -1765,6 +1891,12 @@
   "minecraft:recipes/decorations/cobblestone_wall": {
     "criteria": {
       "has_cobblestone": "2018-10-28 21:32:50 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2018-11-08 21:46:53 -0800"
     },
     "done": true
   },
@@ -1918,6 +2050,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_at_least_9_lapis": "2018-11-08 19:38:27 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2018-10-28 21:44:01 -0700"
@@ -1948,6 +2086,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2018-11-08 21:36:56 -0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
       "has_gold_ingot": "2018-10-28 22:31:56 -0700"
@@ -1963,6 +2107,12 @@
   "minecraft:recipes/redstone/spruce_trapdoor": {
     "criteria": {
       "has_planks": "2018-11-01 20:32:36 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2018-11-08 21:36:56 -0800"
     },
     "done": true
   },
